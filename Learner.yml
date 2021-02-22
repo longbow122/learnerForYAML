@@ -1,0 +1,76 @@
+# This is a learner file. It should give you some basic tips for learning YAML. This will help you learn some basic YAML. I hope.
+
+longbow: #This is longbow. This is a Section. These sections help organise keys. A key will have a variable assigned to it. The variable that is assigned to a key is called a value. A key CANNOT also be a configuration section. If you see a key that doesn't have a varible assigned to it, this means that it is a section.
+  # A key is normally used to hold a value. If a key does not have a value, it will be a section. It is wise to remember this.
+  mathematics: 69 #This is mathematics. This is a key. As you can see, it has a variable assigned to it. This variable is a value. mathematics is set to 69, which is an integer.
+  example: 'You''re making a big mistake.' #This is example. This is also a key. It has a variable assigned to it. This variable is a value. Example is set to a String variable, which always needs to be encased in apostrophes. If you'd like an apostrophe in your string, you need to escape it first with double apostrophes like I've done there. 
+  whee: # This is whee. This is also a key. It has a variable assigned to it. This variable is a value. whee is set to a StringList, which always need to be indented by two, from the key they're assigned to, then marked with a hyphen. After the hyphen, you simply write in your string below. It is worth taking note that StringLists CANNOT have a value assigned to them. 
+    - 'I really hate'
+    - 'stupid people' #Indentations always come in multiples of two!
+    jake: #This is jake. This is another Section inside of a Section. Indentation is key here, as you can see. Indentations always need to be 2 spaces inside when going deeper.
+      squid: 'SQUID' #This is squid. This is another String. How fancy!
+      cat: true #This is cat. This is a boolean. Booleans can only be one of two things, a true or a false. These do not need to be encased in anything as they are not strings.
+      
+
+#########################
+#### Common Mistakes ####
+#########################
+# Here are some common YAML mistakes explained.
+wizz: 'Don't do this!'
+# Above, you see that someone has used apostrophes in their sentence. While gramatically correct, you can't use standard apostrophes like that without actually ensuring that your file knows it's an apostrophe, as they are also used in declaring Strings.
+# So, what you would then need to do is declare that inside the String, is an apostrophe by using double apostrophes. An example can be seen below.
+wizz: 'This looks a little better. Just, don''t do that again.'
+wizz2: 'Neato deleto! This''ll get me in the cool kids club for sure!'
+
+hurdur: 'Plz give me money'
+  - 'Join my minecraft server'
+  - 'I''ll pay you' 
+#Up here, you can see that somebody has incorrectly tried to add a String to a StringList. To fix this, you need to take the first string down one line, and hypenate it like I've shown above. StringLists CANNOT have values assigned next to them like that, otherwise, it would be a String.
+hurdur:
+  - 'Plz give me money'
+  - 'Join my minecraft server'
+  - 'I''l pay you'
+#This is better. 
+
+carter:
+ smith:
+   johnstone:
+      whee: 558   
+# Above, the spacing is completely off, and, when looking at this by eye, on a computer screen, spacing actually looks fine. But when you start counting, you'll realise that the deeper they went, the spacing was completely off. 
+carter:
+  smith:
+    johnstone:
+      whee: 558
+# This is better. When indenting, something called the "two-tap" rule, is useful, as you go down a section, to make another section or a key, intend by 2 by tapping your spacebar twice. Like shown below.
+longbow122: #This is a section
+  jake: #Two-tapped to make another section
+    tomHaverford: false #Two-tapped again to make a key, which has a value of a boolean assigned to it.
+
+      
+# Here's a little challenge for you so can make sure you know your YAML. 
+
+# 1) Make a configuration section called bill inside the configuration section "james".
+# 2) Make a key called "fire" inside "james". Assign this key with any variable type you want.
+# 3) Make a key called "air" inside "bill". Give this a string list of the alphabet. If you're feeling lazy, just add ABC and D to the list.
+# 4) Make a configuration section called water OUTSIDE "james".
+
+james:
+
+
+
+
+
+# EXTRA EPIC GAMER NOTES:
+# This "learner" file was written by longbow122. Developers/Support Staff, feel free to edit this file as needed and share to anyone who you feel needs to learn some basics for YAML formatting.
+# If you make an edit that you feel is particularly useful, please contact me so I can make the same edit to the original file. If you have extra "YAML challenges" that you feel could be solved by your users, send me those too! I'll add them to my "YAML Challenges" file.
+# You can contact me on my discord at: longbow122#1576
+#
+# It is also worth noting that this file was made to help users LEARN YAML. It is not intended to be used as an actual configuration file
+# or any sort of file used in production.
+# For education purposes, you will see that most YAML syntax in here is wrong. This has been done on purpose to show users what not to do. 
+# If there is a mistake in YAML formatting that you believe was not intentional, please contact me and I will take a look as soon as possible.
+#
+# P.S: If you're not already using it, use Visual Studio Code to work with YAML. It's a great tool to work with when configuring minecraft plugins due to it's easy auto-indent, auto-correct and suggest and more features!
+# Download it here: https://code.visualstudio.com/
+#
+# P.P.S: When in need, YAML validators can help find those errors you just can't see. I would recommend YAMLINT. Take a look here: https://codebeautify.org/yaml-validator/
