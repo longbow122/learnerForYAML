@@ -1,4 +1,83 @@
+#This entire yml file was generaterd using Material for MkDocs
 site_name: Learner For YAML
+repo_url: https://github.com/longbow122/learnerForYAML
+repo_name: Learn YAML on GitHub
+plugins:
+  - search:
+      lang: en
 theme:
+  icon:
+    repo: fontawesome/brands/github
+  font:
+    code: PT Mono  
   name: material
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.expand
+    - navigation.sections
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - toc.follow
+    - toc.integrate
 
+  palette: 
+    - scheme: default
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+markdown_extensions:
+  - attr_list
+  - abbr
+  - footnotes
+  - pymdownx.details
+  - admonition
+  - pymdownx.superfences
+  - def_list
+  - toc:
+      permalink: 📎
+      permalink_title: Anchor link to this section for reference
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.snippets:
+      auto_append:
+        - includes/abbreviations.md
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+nav: #The top navigaton bar of the wiki page.
+# Manaully set the title of each markdown page to set an emote within the sidebar name.
+# Worth noting that only twitter/unicode emotes would be supported. Image assets would likely not work.
+  - Home:
+    - "index.md"
+    - Get started with YAML:
+      - "explanationOfYAML.md"
+      - "variables.md"
+      - "sectionsAndKeys.md"
+      - "syntax.md"
+      - "comments.md"
+      - "YAMLErrors.md"
+  - Minecraft Servers:
+    - "serverExamples.md" 
+    ##
+    #
+    ## THIS NAVIGATION SECTION NEEDS TO BE IMPLEMENTED FIRST BEFORE THE PAGES ARE THROWN IN TO ALLOW FOR THE STRUCTURE TO BE MADE FIRST
+    # THEN CONTENT AND ANYTHING FANCY CAN BE IMPLEMENTED LATER. 
+    #
+    #
+extra:
+  generator: false 
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/longbow122
+      name: longbow122 on GitHub
+    - icon: fontawesome/brands/linkedin
+      link: https://uk.linkedin.com/in/dhruvil-patel-072a01233
+      name: Dhruvil Patel on LinkedIn 
