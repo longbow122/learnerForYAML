@@ -88,14 +88,14 @@ Not so scary now, huh? As long as you remember to indent, and hyphenate. After a
 
 If you really want to, you can also use a single-lined list. However, this isn't recommended, but has been seen on the rare chance in use by developers for configuration files. These are much simpler than multi-lined lists, as you will soon see.
 ```yaml
-list: ['Hello', 'Hi', 'What's your name?']
+list: ['Hello', 'Hi', 'What''s your name?']
 ```
 See what I've done here? I've listed some single-quoted Strings using commas, and after that, I've simply encased the entire list in a square bracket. This is how you'd declare and use a single-lined StringList.
 
 ## Well, this is new.
 Want to test what you've just learned? Take a look at the challenge below:
 
-Below this paragraph, I have written out a (fake) configuration file. Can you identify which variable is which from the name of the key and if it's declared incorrectly, can you fix it? (To make things more fun, there are even a few indentation errors in this file).
+Below this paragraph, I have written out a (fake) configuration file. Can you identify which variable is which from the name of the key and if it's declared incorrectly, can you fix it? (To make things more fun, there are even a few indentation and syntax errors in this file).
 
 ```yaml
 moneysection:

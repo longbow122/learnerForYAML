@@ -26,7 +26,7 @@ It is also assumed you own or work for a Minecraft server since this was made sp
 If you don't have a text editor that doesn't have YAML capability, my personal recommendation is [Notepad++](https://notepad-plus-plus.org/downloads/). It has auto-complete, easy automatic indenting, and great find functions! For most configurators and most plugins, this will be all you need. If you want something with a little more *pizzaz*, [Visual Studio Code](https://code.visualstudio.com/) is a very powerful program and will do everything Notepad++ can and more. Some plugins have also made add-ons for Visual Studio Code, which will help you configure those plugins.
 
 ## Suggestions and Improvements
-This website is always looking to expand! Do you have a suggestion or improvement you feel should be added to this website! Contact me on my [discord server](https://discord.gg/bTfSaKn) or make a [Github issue!](https://github.com/longbow122/learnerForYAML/issues/new) I will check both platforms regularly and will do my best to respond to these. If I feel your suggestion is something that is informative, and worth adding to the wiki, I will add you to the [wonderful wall of contributors!](https://github.com/longbow122/learnerForYAML/wiki#contributors)
+This website is always looking to expand! Do you have a suggestion or improvement you feel should be added to this website! Contact me on my [discord server](https://discord.gg/bTfSaKn) or make a [Github issue!](https://github.com/longbow122/learnerForYAML/issues/new) I will check both platforms regularly and will do my best to respond to these. If I feel your suggestion is something that is informative, and worth adding to the wiki, I will add you to the [wonderful wall of contributors!](https://longbow122.github.io/learnerForYAML/#contributors)
 
 ## Contributors
 A special thanks goes out to everyone who has contributed to learnerForYAML! This website was originally written by longbow122, but the people below have helped the development of this wiki significantly! Thanks so much!
@@ -37,7 +37,7 @@ A special thanks goes out to everyone who has contributed to learnerForYAML! Thi
 - [H1DD3NxN1NJA](https://www.spigotmc.org/members/h1dd3nxn1nja.33224/) (Configuration file is featured in wiki)
 - BadBones69 (Configuration file is featured in wiki)
 
-*Please DO NOT contact contributors with the intent of recieving support or help with your configuration files or this guide. They have nothing to do with it. If you require support, take a read of [this section.](https://github.com/longbow122/learnerForYAML/wiki#help)*
+*Please DO NOT contact contributors with the intent of recieving support or help with your configuration files or this guide. They have nothing to do with it. If you require support, take a read of [this section.](https://longbow122.github.io/learnerForYAML/#help)*
 
 !!! info ""
 
