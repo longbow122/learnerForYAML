@@ -57,13 +57,13 @@ nav: #The top navigaton bar of the wiki page.
 # Worth noting that only twitter/unicode emotes would be supported. Image assets would likely not work.
   - Home:
     - "index.md"
-    - Get started with YAML:
-      - "explanationOfYAML.md"
-      - "variables.md"
-      - "sectionsAndKeys.md"
-      - "syntax.md"
-      - "comments.md"
-      - "YAMLErrors.md"
+  - Get started with YAML:
+    - "explanationOfYAML.md"
+    - "variables.md"
+    - "sectionsAndKeys.md"
+    - "syntax.md"
+    - "comments.md"
+    - "yamlErrors.md"
   - Minecraft Servers:
     - "serverExamples.md" 
     ##

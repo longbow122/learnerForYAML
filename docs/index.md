@@ -1,15 +1,16 @@
 ---
 hide:
   - footer
-title: ":wave: Welcome!"
+title: "👋 Welcome!"
 ---
 
+# :wave: Welcome!
 Use the sidebar to find a specific topic to read up on, or simply get started by reading through each page! Most pages will have a small "practise" challenge which will make use of each lesson you were taught on that page! Feel free to have a try at them! If you don't feel like reading through the wiki, feel free to download the [original learnerForYAML file](https://github.com/longbow122/learnerForYAML/blob/main/Learner.yml). This file is a more condensed and less detailed version of the learnerForYAML wiki page, and the learnerForYAML website.
 
 ## Help
 If you feel that these pages or the Learner.yml file did not help you, or you have a suggested addition to this website and the file, please contact me at my support discord: [https://discord.gg/bTfSaKn](https://discord.gg/bTfSaKn) I'll be happy to help you as much as I can there!
 
-You can also create a [Github issue]https://github.com/longbow122/learnerForYAML/issues), and I will check over all issues on my GitHub daily.
+You can also create a [Github issue](https://github.com/longbow122/learnerForYAML/issues), and I will check over all issues on my GitHub daily.
 
 ## Prerequisites
 When reading through this website, it will be assumed that you have the following:
@@ -31,6 +32,7 @@ This website is always looking to expand! Do you have a suggestion or improvemen
 A special thanks goes out to everyone who has contributed to learnerForYAML! This website was originally written by longbow122, but the people below have helped the development of this wiki significantly! Thanks so much!
 
 **Contributors:**
+
 - SaltyAimBOtter (Gave suggestions for certain pages)
 - [H1DD3NxN1NJA](https://www.spigotmc.org/members/h1dd3nxn1nja.33224/) (Configuration file is featured in wiki)
 - BadBones69 (Configuration file is featured in wiki)
@@ -39,4 +41,4 @@ A special thanks goes out to everyone who has contributed to learnerForYAML! Thi
 
 !!! info ""
 
-    <ins>Please note that some information may be wrong in this wiki, and I have done my best to ensure whatever has been written is correct. This was written in British English (with the odd oxford comma). If you believe there is a spelling, grammatical, or technical error, please contact me immediately through Discord: **longbow122#1576**</ins>
+    *Please note that some information may be wrong in this wiki, and I have done my best to ensure whatever has been written is correct. This was written in British English (with the odd oxford comma). If you believe there is a spelling, grammatical, or technical error, please contact me immediately through Discord:* ***longbow122#1576***
