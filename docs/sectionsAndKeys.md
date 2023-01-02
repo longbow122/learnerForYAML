@@ -16,6 +16,7 @@ example: #This is a section. This will store keys!
 example2: #This is another section, helping keep things of different categories arranged.
   bowlong: 55 #This is a key!
 ```
+
 Do you see how this works? Simple, right? Developers will use this when they have configuration options that belong in two different categories. Sorting them out like this will save you a lot of time, and it means you can keep things nice and tidy. When using YAML, tidiness is always very important.
 
 ## Keys
@@ -26,7 +27,8 @@ example: #This is a section!
   longbow: 49 #This is a key! This would store a value for something, which you can make use of.
 moneyOnJoin: #This is a section from a (fake) configuration file from a (fake) plugin. This plugin will give a certain amount of money to the player upon joining their server.
   money: 500 #This key stores the value of the money to be given. When a player joins, they'll receive $500.
-  ```
+```
+
 Do you see how this works? Developers will use keys to store values which they can then access through the code in their plugin. This allows server owners to change these values and customise plugins how they want, to suit their servers.
 
 ## No, seriously. Where are the doors?
