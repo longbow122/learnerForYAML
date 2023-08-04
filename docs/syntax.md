@@ -92,6 +92,15 @@ list: ['Hello', 'Hi', 'What''s your name?']
 ```
 See what I've done here? I've listed some single-quoted Strings using commas, and after that, I've simply encased the entire list in a square bracket. This is how you'd declare and use a single-lined StringList.
 
+Additionally, it is also worth noting that you are able to declare an empty list of any type by simply removing all elements from the list, and using an empty set of square brackets. Take a look at the example below:
+```yaml
+list: []
+```
+
+!!! info ""
+
+    It is also worth noting that you can declare a list of any other data type using the same logic shown above. Using this, you could make use of a list of longs, characters, integers, and more!
+
 ## Well, this is new.
 Want to test what you've just learned? Take a look at the challenge below:
 

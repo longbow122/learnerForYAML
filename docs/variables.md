@@ -29,6 +29,7 @@ As said before, variables come as different types, each type can be used for a d
 - **String:** It's normally used in text. Letters, numbers, sentences, words, paragraphs, you name it. If it's got to do with text, it would be a form of String.
 - **Number:** These would be used to define any number you wanted. In Java, these would be split up into multiple variables, but you don't need to know that.
 - **StringList:** This would be the same as a String but in a list format. There are many uses for this, but the most common is where you would use it to customise your /help command.
+- **List:** A set of variables of the same data type, stored in one location. A list of variables. Many forms of lists are derived from here, including String Lists.
 - **Boolean:** Probably one of the simplest variables to use. It's simply a "true" or a "false"! Think of it like a "yes" or a "no". Used for virtually anything. You probably used it when ordering food at a restaurant! Booleans are used every day, everywhere.
 
 These are some of the more common variable types you would see when configuring your server. You won't need to identify these, but it's useful information to have, no?
@@ -50,6 +51,11 @@ e: "Huh?"
 f: 'What''s going on here?'
 g: 75
 h: true
+i:
+  - 1
+  - 2
+  - 3
+  - 4
 ```
 
 !!! info ""
