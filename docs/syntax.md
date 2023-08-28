@@ -55,6 +55,29 @@ a: 'I've escaped an apostrophe!'
 ```
 This will either print I when returning that value as a String, or give you an error since you haven't escaped the character, and so, everything after the "I" will not be part of a string, and YAML will trip up. Either way, this is not the result you wanted. This is why it's important to remember to use '' when declaring an apostrophe inside a single-quoted string in YAML.
 
+There are also other ways to escape a string, some of these come in handy when making use of other characters that might mess with strings. One commonly used example is speech marks.
+```yaml
+a: ""What do you mean I can't speak?""
+```
+Something such as this might be a common use-case for servers and as such, there must be a way to ensure that you can escape speech marks too. There are two ways of going about this:
+
+#### Speech Mark Escaping Method One
+One method of escaping speech marks is by making use of the single-quote method for declaring strings. Through this, you can then make use of speech marks within your string. This would work like so:
+```yaml
+a: '"Hello there!"'
+```
+This would return **"Hello there!"** as a String when referenced. This is one such way you can escape speech marks. See below for the second method.
+
+!!! info ""
+
+    *Personally, I prefer to use single quotes for strings where possible. It tends to make things easier for me. A good rule of thumb is to use whatever works. If something works for you, don't touch it.*
+
+#### Speech Mark Escaping Method Two
+Another method of escaping speech marks is by making use of the backslash to escape a character. Using this, you are then able to make use of speech marks within your string. This would work like so:
+```yaml
+a: "\"Hello there!\""
+```
+This would return **"Hello there!"** as a String when referenced. This is one way through which speech marks can be escaped using Strings.
 ### Numbers
 Phew! Thank god that's over. Now then, onto something a little simpler. Declaring any number is much simpler with YAML. No formatting required! Take a look at the example below:
 ```yaml
